@@ -26,7 +26,7 @@
             </objects>
             <point key="canvasLocation" x="-431" y="463"/>
         </scene>
-        <!--View Controller-->
+        <!--Villains-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="BondVillains" customModuleProvider="target" sceneMemberID="viewController">
@@ -81,7 +81,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="lPA-QP-RAQ" secondAttribute="trailing" constant="-16" id="pb7-vx-eLn"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="r9E-K9-q3H"/>
+                    <navigationItem key="navigationItem" title="Villains" id="r9E-K9-q3H"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
@@ -90,7 +90,7 @@
         <!--VillianDetailViewController-->
         <scene sceneID="vdo-ka-Cdv">
             <objects>
-                <viewController storyboardIdentifier="VillianDetailViewController" id="Rfj-ez-xzn" userLabel="VillianDetailViewController" customClass="VillianDetailViewController" customModule="BondVillains" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VillainDetailViewController" id="Rfj-ez-xzn" userLabel="VillianDetailViewController" customClass="VillainDetailViewController" customModule="BondVillains" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ewa-CP-7Kk"/>
                         <viewControllerLayoutGuide type="bottom" id="0nx-Dm-ia8"/>
@@ -122,9 +122,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="label" destination="HaQ-fM-n0T" id="dd6-JA-T1K"/>
-                        <outlet property="villianImageView" destination="meP-SH-RVP" id="P2x-Zc-2ll"/>
-                        <outlet property="villianLabel" destination="HaQ-fM-n0T" id="AcQ-Gy-xQI"/>
+                        <outlet property="villainImageView" destination="meP-SH-RVP" id="x00-6M-APh"/>
+                        <outlet property="villainLabel" destination="HaQ-fM-n0T" id="cLZ-fh-uDe"/>
+                        <outlet property="villianLabel" destination="HaQ-fM-n0T" id="GjY-2B-tXL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n6I-Ag-79J" userLabel="First Responder" sceneMemberID="firstResponder"/>

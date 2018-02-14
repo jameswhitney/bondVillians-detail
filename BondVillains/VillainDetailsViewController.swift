@@ -1,5 +1,5 @@
 //
-//  VillianDetailViewController.swift
+//  VillainDetailViewController.swift
 //  BondVillains
 //
 //  Created by James Whitney on 2/14/18.
@@ -9,23 +9,24 @@
 import Foundation
 import UIKit
 
-class VillianDetailViewController: UIViewController {
+class VillainDetailViewController: UIViewController {
     
     // MARK: Properties
     
-    var villian: Villain!
+    var villain: Villain!
     
     // MARK: Outlets
     
-    @IBOutlet weak var villianImageView: UIImageView!
-    @IBOutlet weak var villianLabel: UILabel!
+    @IBOutlet weak var villainImageView: UIImageView!
+    @IBOutlet weak var villainLabel: UILabel!
     
     // MARK: Life Cycle
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        self.villianImageView!.image = UIImage(named: villian.imageName)
-        self.villianLabel.text = self.villian.name
+        self.villainImageView!.image = UIImage(named: villain.imageName)
+        self.villainLabel.text = self.villain.name
+        
     }
 }
