@@ -121,6 +121,11 @@
                             <constraint firstItem="meP-SH-RVP" firstAttribute="top" secondItem="Ewa-CP-7Kk" secondAttribute="bottom" constant="273" id="cLg-hI-kma"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="label" destination="HaQ-fM-n0T" id="dd6-JA-T1K"/>
+                        <outlet property="villianImageView" destination="meP-SH-RVP" id="P2x-Zc-2ll"/>
+                        <outlet property="villianLabel" destination="HaQ-fM-n0T" id="AcQ-Gy-xQI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n6I-Ag-79J" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
