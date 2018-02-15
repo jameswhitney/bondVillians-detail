@@ -47,6 +47,9 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        let detailController = self.storyboard!.instantiateViewController(withIdentifier: "VillainDetailViewController")
+        let detailController = self.storyboard!.instantiateViewController(withIdentifier: "VillainDetailViewController") as!
+            VillainDetailViewController
+        detailController.villain = self.allVillains[(indexPath as NSIndexPath).row]
+        self.navigationController!.pushViewController(detailController, animated: true)
     }
 }

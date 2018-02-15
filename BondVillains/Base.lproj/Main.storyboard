@@ -87,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="458" y="463"/>
         </scene>
-        <!--VillianDetailViewController-->
+        <!--VillainDetailViewController-->
         <scene sceneID="vdo-ka-Cdv">
             <objects>
-                <viewController storyboardIdentifier="VillainDetailViewController" id="Rfj-ez-xzn" userLabel="VillianDetailViewController" customClass="VillainDetailViewController" customModule="BondVillains" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="VillainDetailViewController" id="Rfj-ez-xzn" userLabel="VillainDetailViewController" customClass="VillainDetailViewController" customModule="BondVillains" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ewa-CP-7Kk"/>
                         <viewControllerLayoutGuide type="bottom" id="0nx-Dm-ia8"/>
@@ -103,11 +103,11 @@
                                 <rect key="frame" x="137" y="293" width="100" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="HdS-W6-XLd"/>
+                                    <constraint firstAttribute="height" constant="80" id="ifs-Wg-vdq"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HaQ-fM-n0T">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HaQ-fM-n0T">
                                 <rect key="frame" x="16" y="417" width="343" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -116,15 +116,15 @@
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="meP-SH-RVP" firstAttribute="centerY" secondItem="6bN-Iy-1uT" secondAttribute="centerY" id="2I7-si-XMu"/>
+                            <constraint firstItem="HaQ-fM-n0T" firstAttribute="top" secondItem="meP-SH-RVP" secondAttribute="bottom" constant="44" id="2m2-b8-l7h"/>
                             <constraint firstItem="meP-SH-RVP" firstAttribute="centerX" secondItem="6bN-Iy-1uT" secondAttribute="centerX" id="3ON-Jz-Zqt"/>
-                            <constraint firstItem="0nx-Dm-ia8" firstAttribute="top" secondItem="meP-SH-RVP" secondAttribute="bottom" constant="294" id="SAr-Jb-MvC"/>
-                            <constraint firstItem="meP-SH-RVP" firstAttribute="top" secondItem="Ewa-CP-7Kk" secondAttribute="bottom" constant="273" id="cLg-hI-kma"/>
+                            <constraint firstItem="HaQ-fM-n0T" firstAttribute="leading" secondItem="6bN-Iy-1uT" secondAttribute="leadingMargin" id="clH-PD-YTD"/>
+                            <constraint firstItem="HaQ-fM-n0T" firstAttribute="centerX" secondItem="6bN-Iy-1uT" secondAttribute="centerX" id="hSY-ko-UcT"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="villainImageView" destination="meP-SH-RVP" id="x00-6M-APh"/>
-                        <outlet property="villainLabel" destination="HaQ-fM-n0T" id="cLZ-fh-uDe"/>
-                        <outlet property="villianLabel" destination="HaQ-fM-n0T" id="GjY-2B-tXL"/>
+                        <outlet property="villainLabel" destination="HaQ-fM-n0T" id="xdG-N9-DDF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n6I-Ag-79J" userLabel="First Responder" sceneMemberID="firstResponder"/>
